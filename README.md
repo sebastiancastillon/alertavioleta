@@ -12,11 +12,8 @@
 
 | Inicio (Botón de Pánico) | Formulario de Reporte | Mapa de Calor |
 |:---:|:---:|:---:|
-| ![Home](screenshots/home.png) | ![Reporte](screenshots/reporte.png) | ![Mapa](screenshots/mapa.png) |
+| ![Home](screenshots/home.jpeg) | ![Reporte](screenshots/reporte.jpeg) | ![Mapa](screenshots/mapa.jpeg) |
 
-| Evidencia (Cámara/SS) | Descripción Visual | Escáner de Transporte |
-|:---:|:---:|:---:|
-| ![Evidencia](screenshots/evidencia.png) | ![Canvas](screenshots/dibujo.png) | ![QR](screenshots/qr.png) |
 
 ---
 
