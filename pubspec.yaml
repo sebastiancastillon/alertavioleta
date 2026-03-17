@@ -1,0 +1,40 @@
+name: alertavioleta
+description: "Aplicación para el reporte de acoso callejero en Colima."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+
+  # --- Módulos del Proyecto Alerta Violeta ---
+  geolocator: ^11.0.0      # Hito 3: GPS Automático
+  camera: ^0.10.5+9        # Hito 2: Cámara para evidencia
+  image_picker: ^1.0.7     # Alternativa sencilla para captura de fotos
+  flutter_map: ^6.1.0      # Hito 4: Visualización de mapas (OpenStreetMap)
+  latlong2: ^0.9.1         # Manejo de coordenadas para el mapa
+  signature: ^5.5.0        # Módulo E: Canvas para descripción del agresor
+  mobile_scanner: ^3.5.5   # Módulo F: Escaneo de QR en transporte público
+  http: ^1.2.0             # Módulo H: Envío de datos a la API Web
+  path_provider: ^2.1.2    # Para manejo de archivos temporales
+  path: ^1.9.0             # Utilidades de rutas de archivos
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Si decides usar iconos personalizados o imágenes locales, 
+  # descomenta las siguientes líneas:
+  # assets:
+  #   - assets/images/
